@@ -1,0 +1,24 @@
+{
+    "dataset": "2019-Oct.csv",
+    "total_rows": 42448764,
+    "chunks_processed": 425,
+    "event_counts": {
+        "view": 40779399,
+        "purchase": 742849,
+        "cart": 926516
+    },
+    "missing_counts": {
+        "event_time": 0,
+        "event_type": 0,
+        "product_id": 0,
+        "category_id": 0,
+        "category_code": 13515609,
+        "brand": 6117080,
+        "price": 0,
+        "user_id": 0,
+        "user_session": 2
+    },
+    "earliest_event": "2019-10-01 00:00:00 UTC",
+    "latest_event": "2019-10-31 23:59:59 UTC",
+    "processing_seconds": 57.81
+}
