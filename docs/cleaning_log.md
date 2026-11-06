@@ -451,3 +451,61 @@ The cleaned dataset contains 849,220 rows and is saved at:
 `data/clean/october_customer_sample_clean.csv`
 
 The cleaned dataset is ready for downstream analysis.
+
+
+
+
+
+# Phase 2 — Data Cleaning and PostgreSQL Preparation
+
+## Dataset
+- Source: October 2019 eCommerce customer sample
+- Cleaned CSV: data/clean/october_customer_sample_clean.csv
+- PostgreSQL database: product_funnel
+- PostgreSQL table: public.ecommerce_events
+
+## PostgreSQL Validation Results
+
+| Metric | Result |
+|---|---:|
+| Total events | 849,220 |
+| Unique users | 60,939 |
+| Unique sessions | 185,065 |
+| Unique products | 66,289 |
+| Unique categories | 605 |
+| Unique brands | 2,545 |
+
+## Event Distribution
+
+| Event | Count |
+|---|---:|
+| View | 814,847 |
+| Cart | 18,938 |
+| Purchase | 15,435 |
+
+## Data Quality Checks
+
+- NULL values: 0 across all 9 columns
+- Exact duplicate rows: 600 extra rows
+- Zero-price events: 1,469
+- Negative-price events: 0
+- Unknown category codes: 268,555
+- Unknown brands: 121,933
+
+## Date Range (UTC)
+- Earliest event: 2019-10-01 00:00:56
+- Latest event: 2019-10-31 23:57:44
+
+## PostgreSQL Preparation
+- Created ecommerce_events table
+- Imported cleaned CSV
+- Validated row counts and data types
+- Created index on user_id
+- Created index on user_session
+- Saved validation queries in sql/02_data_validation.sql
+
+## Important Notes
+- Duplicate events were identified during validation.
+- Zero-price events require careful treatment in revenue analysis.
+- Unknown category and brand values are retained as explicit labels.
+- Funnel conversion calculations must use the defined customer/session/product journey logic rather than raw event counts.
