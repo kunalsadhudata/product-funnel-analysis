@@ -77,6 +77,8 @@ This finding identifies an area for further investigation, not proof of a specif
 Explore the published Tableau workbook and its interactive visualizations:
 
 - **Tableau Public Portfolio:** [View Tableau Profile](https://public.tableau.com/app/profile/kunalsadhu.data/vizzes)
+- **Executive Overview:** [Open Dashboard](https://public.tableau.com/app/profile/kunalsadhu.data/viz/product_funnel_dashboard/ExecutiveOverview)
+- **Customer Behavior & Segmentation:** [Open Dashboard](https://public.tableau.com/app/profile/kunalsadhu.data/viz/product_funnel_dashboard/CustomerBehaviorSegmentation)
 - **Financial Impact & Scenario Analysis:** [Open Dashboard](https://public.tableau.com/app/profile/kunalsadhu.data/viz/product_funnel_dashboard/FinancialImpactScenarioAnalysis)
 
 The Tableau workbook contains three dashboards:
