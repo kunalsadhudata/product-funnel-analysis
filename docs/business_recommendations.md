@@ -97,3 +97,84 @@ The validated journey-level funnel should remain the reference for journey conve
 The analysis suggests opportunities to investigate low customer activity, product discovery barriers, and repeat purchasing behavior.
 
 The recommended next step is to translate these observations into measurable hypotheses and controlled experiments while maintaining the validated funnel definitions.
+
+
+
+
+
+
+
+
+
+
+## Phase 07 — Revenue Impact and Opportunity Analysis
+
+### Historical Purchase-Value Baseline
+
+The cleaned October customer sample contains:
+
+- Total customers: 60,939
+- Purchasing customers: 7,099
+- Purchase events: 15,435
+- Total recorded purchase-event value: 4,979,242.62
+- Average purchase-event value: 322.59
+- Customer purchase participation: 11.65%
+
+Currency remains unverified. Recorded purchase-event value is a revenue proxy, not confirmed business revenue.
+
+### Customer Activity Insights
+
+Purchase participation increases across activity segments:
+
+- Low Activity: 2.15%
+- Medium Activity: 12.57%
+- High Activity: 25.47%
+- Very High Activity: 48.62%
+
+Very High Activity customers contribute 43.92% of total recorded purchase-event value.
+
+These relationships are observational and do not establish causation.
+
+### Category and Brand Concentration
+
+- Smartphones contribute 70.03% of recorded purchase-event value.
+- Apple contributes 47.67%.
+- Samsung contributes 22.21%.
+
+These results indicate substantial concentration in particular categories and brands within the sample.
+
+### Hypothetical Improvement Opportunities
+
+Modeled relative improvements in customer purchase participation:
+
+| Improvement | Incremental Purchase-Event Value |
+|---|---:|
+| 5% | 248,962.13 |
+| 10% | 497,924.26 |
+| 15% | 746,886.39 |
+| 20% | 995,848.52 |
+
+These scenarios assume that additional purchasing customers generate the historical average purchase-event value per purchasing customer.
+
+They are illustrative scenarios, not forecasts or observed improvements.
+
+### Business Recommendations
+
+1. Investigate barriers affecting low-activity customers.
+2. Improve product discovery and cart progression through controlled experiments.
+3. Examine high-value product and brand concentration.
+4. Explore retention and repeat-purchase opportunities.
+5. Validate proposed improvements experimentally before estimating realized financial impact.
+
+### Limitations
+
+- Analysis is based on a cleaned October sample.
+- Currency is unverified.
+- Purchase events are not necessarily unique orders.
+- Purchase-event value is not confirmed revenue.
+- Observational findings do not establish causation.
+- Hypothetical purchase-value uplift is not profit or ROI.
+
+### Validation
+
+Phase 07 historical baseline, customer segmentation, opportunity scenarios, and sensitivity analysis passed the final notebook validation checks.
