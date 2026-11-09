@@ -1,0 +1,15 @@
+kpi_order,kpi,value,grain,note
+1,Unique customers,60939,Customer,
+2,Purchasing customers,7099,Customer,
+3,Customer purchase participation pct,11.65,Customer,
+4,View journeys,552900,Journey,
+5,View to Cart pct,2.30,Journey,
+6,Cart to Purchase pct,49.51,Journey,
+7,View to Purchase pct,1.14,Journey,
+8,Purchase events,15435,Event,Not unique orders
+9,Recorded purchase-event value,4979242.62,Event,Currency UNVERIFIED
+10,Average purchase-event value,322.59,Event,Not necessarily average order value; currency UNVERIFIED
+11,Average value per purchasing customer,701.40,Customer,Currency UNVERIFIED
+12,Median value per purchasing customer,232.69,Customer,Currency UNVERIFIED
+13,Top 10 pct of purchasing customers share of value pct,60.20,Customer,Share of recorded purchase-event value
+14,Smartphone category share of recorded value pct,70.03,Event,Category-level; source is the handoff pack findings

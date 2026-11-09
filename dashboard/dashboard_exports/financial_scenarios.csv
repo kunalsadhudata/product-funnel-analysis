@@ -1,0 +1,5 @@
+scope,relative_gain_pct,projected_participation_pct,additional_purchasers,incremental_purchase_event_value,currency,classification
+Customer purchase participation,5,12.23,355,248962.13,UNVERIFIED,HYPOTHETICAL
+Customer purchase participation,10,12.81,710,497924.26,UNVERIFIED,HYPOTHETICAL
+Customer purchase participation,15,13.40,1065,746886.39,UNVERIFIED,HYPOTHETICAL
+Customer purchase participation,20,13.98,1420,995848.52,UNVERIFIED,HYPOTHETICAL

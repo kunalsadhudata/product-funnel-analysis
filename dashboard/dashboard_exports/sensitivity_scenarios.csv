@@ -1,0 +1,4 @@
+scenario,participation_relative_gain_pct,value_per_purchaser_change_pct,incremental_purchase_event_value,classification
+Low,10,-20,398339.41,HYPOTHETICAL
+Medium,10,0,497924.26,HYPOTHETICAL
+High,10,20,597509.11,HYPOTHETICAL

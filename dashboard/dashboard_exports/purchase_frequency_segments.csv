@@ -1,0 +1,5 @@
+segment_order,purchase_frequency_segment,customers
+1,1 Purchase,4446
+2,2-3 Purchases,1865
+3,4-10 Purchases,640
+4,11+ Purchases,148

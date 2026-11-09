@@ -1,0 +1,5 @@
+segment_order,activity_segment,customers,purchasing_customers,purchase_participation_pct,purchase_event_value,value_share_pct
+1,Low Activity,30626,657,2.15,197338.99,3.96
+2,Moderate Activity,15371,1932,12.57,775752.29,15.58
+3,High Activity,11902,3032,25.47,1819038.72,36.53
+4,Very High Activity,3040,1478,48.62,2187112.62,43.92

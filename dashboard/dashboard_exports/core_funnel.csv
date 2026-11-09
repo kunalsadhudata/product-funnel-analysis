@@ -1,0 +1,4 @@
+stage_order,stage,journeys,step_conversion_pct,drop_off_count,drop_off_pct,overall_conversion_pct,median_time_to_next_stage
+1,View,552900,100.00,540175,97.70,100.00,
+2,Add to Cart,12725,2.30,6425,50.49,2.30,
+3,Purchase,6300,49.51,,,1.14,
